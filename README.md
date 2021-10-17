@@ -1,6 +1,6 @@
-# react-native-select-dropdown
+# @phamhuuan/react-native-select-dropdown
 
-react-native-select-dropdown is a highly customized dropdown | select | picker | menu for react native that works for andriod and iOS platforms.
+react-native-select-dropdown is a highly customized dropdown | select | picker | menu for react native that works for android and iOS platforms.
 
 ## Installation
 
@@ -261,6 +261,7 @@ Method            |  Description
 `reset()`     |  Remove selection & reset it to display `defaultButtonText` check https://github.com/AdelRedaa97/react-native-select-dropdown/pull/1#issuecomment-818307624.
 `openDropdown()`          |  Open the dropdown.
 `closeDropdown()`          |  Close the dropdown.
+`setValueByIndex(index)`	|  Set the value of the dropdown by index.
 
 ---
 
