@@ -7,13 +7,13 @@ react-native-select-dropdown is a highly customized dropdown | select | picker |
 #### # Using npm
 
 ```bash
-npm install react-native-select-dropdown
+npm install @phamhuuan/react-native-select-dropdown
 ```
 
 #### # Using yarn
 
 ```bash
-yarn add react-native-select-dropdown
+yarn add @phamhuuan/react-native-select-dropdown
 ```
 
 ## Demo
@@ -25,7 +25,7 @@ yarn add react-native-select-dropdown
 ## Usage
 
 ```
-import SelectDropdown from 'react-native-select-dropdown'
+import SelectDropdown from '@phamhuuan/react-native-select-dropdown'
 ...
 const countries = ["Egypt", "Canada", "Australia", "Ireland"]
 ...
@@ -90,6 +90,7 @@ const countries = ["Egypt", "Canada", "Australia", "Ireland"]
 - [`reset`](#License)
 - [`openDropdown`](#License)
 - [`closeDropdown`](#License)
+- [`setValueByIndex`](#License)
 
 ---
 
@@ -121,7 +122,7 @@ default button text when no item is selected
 ---
 
 ### buttonTextAfterSelection
-function recieves selected item and its index, this function should return a string that will be represented in button after item is selected
+function receives selected item and its index, this function should return a string that will be represented in button after item is selected
 
 | Type       | Required |
 | ---------- | -------- |
@@ -130,7 +131,7 @@ function recieves selected item and its index, this function should return a str
 ---
 
 ### rowTextForSelection
-function recieves item and index for each row in dropdown, this function shoud return a string that will be represented in each row in dropdown
+function receives item and index for each row in dropdown, this function should return a string that will be represented in each row in dropdown
 
 | Type       | Required |
 | ---------- | -------- |
@@ -184,7 +185,7 @@ style object for button text
 ---
 
 ### renderCustomizedButtonChild
-function recieves selected item and its index, this function should return a React component as a child for dropdown button `buttonStyle` should be used for parent button view style.
+function receives selected item and its index, this function should return a React component as a child for dropdown button `buttonStyle` should be used for parent button view style.
 #### # check examples folder to make things clear
 
 | Type       | Required |
@@ -245,7 +246,7 @@ style object for row text
 
 ---
 ### renderCustomizedRowChild
-function recieves item and its index, this function should return React component as a child for customized row `rowStyle` should be used for parent row view style.
+function receives item and its index, this function should return React component as a child for customized row `rowStyle` should be used for parent row view style.
 
 #### # check examples folder to make things clear
 

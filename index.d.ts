@@ -90,5 +90,10 @@ declare module "react-native-select-dropdown" {
      * Close the dropdown.
      */
     closeDropdown(): void;
+		/**
+		 * Set value of dropdown by index
+		 * @param index
+		 */
+		setValueByIndex(index: number): void;
   }
 }

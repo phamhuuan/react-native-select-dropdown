@@ -58,6 +58,9 @@ const SelectDropdown = (
     closeDropdown: () => {
       closeDropdown();
     },
+		setValueByIndex: (index) => {
+			setValueByIndex(index);
+		}
   }));
   ///////////////////////////////////////////////////////
   // Dropdown height calculation
@@ -233,6 +236,10 @@ const SelectDropdown = (
     setSelectedItem(null);
     setIndex(-1);
   };
+	const setValueByIndex = (index) => {
+		setSelectedItem(data[index]);
+		setIndex(index);
+	}
   const setDefault = (index) => {
     setSelectedItem(data[index]);
     setIndex(index);
